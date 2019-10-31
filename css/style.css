@@ -1,16 +1,15 @@
 
 .main{
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     justify-content: flex-start;
-   /* align-items: center;*/
+    align-items: center;
     height: 100vh;
     min-height: 500px;
     background: url(../img/hero_bg.png) no-repeat;
     background-size: cover;
-    position: relative;
 }
-/*
+
 .main_overlay{
     position: absolute;
     left:0;
@@ -19,7 +18,7 @@
     height: 100%;
     z-index: 0;
 }
-*/
+
 .header{ 
    /* border: 2px solid black;
     */
@@ -66,14 +65,23 @@
 }
 /**/
 .main_text{
-    
+    margin: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    weight: 510px;
-    height: 145px;
+    align-items: flex-start
+    flex-wrap: wrap;
+    max-width: 510px;
+    max-height: 145px;
     border: solid 2px red;
     position: relative;
     z-index: 2;
-    text-align: left;
+    text-align: right;
+}
+.main_text h1{
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase ;
+
 }
 
