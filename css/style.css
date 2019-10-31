@@ -1,0 +1,64 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    min-height: 500px;
+    background: url(../img/hero_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main_overlay{
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.header{ 
+   /* border: 2px solid black;
+    */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    position: relative;
+    z-index: 2;
+}
+.menu{
+    width: 460px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+}
+.menu ul a, .dot{
+    color: #263742;
+    font-size: 12px;
+}
+.mune_link{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 72px;
+    width: 140px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-bottom: 15px;
+    background-color:#FA5C65;
+    border-radius: 0px 0px 5px 5px;
+}
+.twitt{
+    margin-left: 15px;
+}
